@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Unicode Transformation Format show the all language in browser-->
+    <meta name="description" content="somthething.................." />
+    <meta name="author" content="Paisul Paree" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <!--meta http-equiv="refresh" content="5" /-->
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+
+    <title>Barger Maker - Delicious Burger in town!</title>
+
+    <!--------->
+    <!--link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"-->
+    <!--------->
+
+    <!----CSS Link----->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!---Google font--->
+    <!--link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    /-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!---custom javascript link--->
+
+    <!---ion icon link--->
+
+    <!--Header-->
+    <header class="header">
+      <!--img class="lgimage" src="./assets/logo.png" alt="burger maker logo" /-->
+      <a href="#" class="logo">Marker Burger</a>
+      <nav class="nav-bar">
+        <a href="#home" class="active">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about us">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!--Search form-->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+    <!--Home sections starts-->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>your special dish</span>
+              <h3>Burger</h3>
+              <p>it's our special dishes on our menu</p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./assets/burger.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>your special dish</span>
+              <h3>Submarine</h3>
+              <p>it's our special dishes on our menu</p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./assets/submarine.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>your special dish</span>
+              <h3>Savarma</h3>
+              <p>it's our special dishes on our menu</p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./assets/cuisine.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--Home sections ends-->
+    <!--dishes section starts-->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-1.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-2.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-3.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-4.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-5.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="./assets/dish-6.png" alt="">
+        <h3>tasty food</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rs.450</span>
+        <a href="#" class="btn">add to card</a>
+      </div>
+    </div>
+    </section>
+    
+    <!--dishes section ends-->
+    <!--About section starts-->
+    <section class="about" id="about">
+      <h3 class="sub-heading" id="about us">About us</h3>
+      <h1 class="heading">Why choose us?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./assets/slider1.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>The burger maker is a restruarent is a good neighberhood which is located at batticaloa district. this restruant is very easy to find since it is strategically poditioned in the middle road of the oddamawadi. we can easy to reach it because it is in the MPCS road of the oddamawadi in sri lanka. and it is a really cute restruarent if once you will visit you can't never miss it.</p>
+          <p> You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. Especially, ingredients are always used to prepare the foods.</p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <span>easy payment</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--About section ends-->
+    <!--Menu section starts-->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading" id="about us">Our Menu</h3>
+      <h1 class="heading">today's speciality </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-1.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-2.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-3.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-4.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-5.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-6.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-7.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="./assets/menu-9.jpg" alt="">
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>delicious BBQ</h3>
+            <p>You can have the food with chiep price but higher quality and quantity not only fast food but also during items are also provided here. </p>
+            <a href="#" class="btn">add to card</a>
+            <span class="price">Rs.1500</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--Menu section ends-->
+    <sectio class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what the say</h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./assets/pic-1.png" alt="">
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Maintained high standards of customers service during high-volume fast-paced operations especially followed procedures for food preparation, assembly and presentation preparing meals with great taste and always keep cleaning of the place are the good thing, so customer can eat without any problem and with good mindset.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./assets/pic-2.png" alt="">
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Maintained high standards of customers service during high-volume fast-paced operations especially followed procedures for food preparation, assembly and presentation preparing meals with great taste and always keep cleaning of the place are the good thing, so customer can eat without any problem and with good mindset.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./assets/pic-3.png" alt="">
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Maintained high standards of customers service during high-volume fast-paced operations especially followed procedures for food preparation, assembly and presentation preparing meals with great taste and always keep cleaning of the place are the good thing, so customer can eat without any problem and with good mindset.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="./assets/pic-4.png" alt="">
+              <div class="user-info">
+                <h3>john deo</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>Maintained high standards of customers service during high-volume fast-paced operations especially followed procedures for food preparation, assembly and presentation preparing meals with great taste and always keep cleaning of the place are the good thing, so customer can eat without any problem and with good mindset.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Order section starts-->
+    <section class="order" id="order">
+      <h3 class="sub-heading">Order Now</h3>
+      <h1 class="heading">free and fast</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Name</span>
+            <input type="text" placeholder="enter your name">
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number">
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Order</span>
+            <input type="text" placeholder="enter food name">
+          </div>
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="number" placeholder="extra with food">
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>How Much</span>
+            <input type="text" placeholder="how many orders">
+          </div>
+          <div class="input">
+            <span>Date and Time</span>
+            <input type="datetime-local">
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Address</span>
+            <textarea type="text" placeholder="enter your address" id="" cols="30" rows="10"> </textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea type="text" placeholder="enter your message" id="" cols="30" rows="10"> </textarea>
+          </div>
+        </div>
+        <input type="submit" value="Order Now" class="btn">
+      </form>
+    </section>
+    <!--Order section ends-->
+    <!--footer section starts-->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>location</h3>
+          <a href="#">Tamil Nadu</a>
+          <a href="#">Delhi</a>
+          <a href="#">Russia</a>
+          <a href="#">Mumbei</a>
+          <a href="#">Kerala</a>
+        </div>
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#home">Home</a>
+          <a href="#dishes">Dishes</a>
+          <a href="#about us">About US</a>
+          <a href="#menu">Menu</a>
+          <a href="#review">Review</a>
+          <a href="#order">Order</a>
+        </div>
+        <div class="box">
+          <h3>Contact Information</h3>
+          <a href="#">+947-258-3411</a>
+          <a href="#">+947-618-1219</a>
+          <a href="#">pareepaisul@gmail.com</a>
+          <a href="#">faisulfary@gmail.com</a>
+          <a href="#">Galwela Road, Thambala, Polonnaruwa</a>
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <div class="credit">copyright @ 2022 by <span>Paisul Paree</span> </div>
+    </section>
+    <!--footer section ends-->
+    <!--Load part-->
+    <!--div class="loader-container">
+      <img src="./assets/Spin-0.8s-243px.gif" alt="">
+    </div-->
+
+
+    <!---->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
